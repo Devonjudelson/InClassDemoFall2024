@@ -11,4 +11,10 @@ public class Favorite {
         this.url = new URL(adress);
         this.date = new Date();
     }
+
+    @Override
+    public String toString() { 
+        String s = this.name + " " + this.date + "\n"' 
+        return s + url.toString(); 
+    }
 }
